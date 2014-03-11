@@ -11,8 +11,10 @@ void for_version(int result[], int size)
 
 void while_version(int result[], int size)
 {
-   /* Translate the above for statement into an equivalent while statement.
-      Think about this in the most general sense such that the translation
-      is not specific to this example.
-   */
+   int i=0;
+   while(i<size)
+   {
+      result[i]=i;
+      i++;
+   }
 }
